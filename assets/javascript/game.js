@@ -27,7 +27,7 @@ function random(){
 }
 random();
 
-var crystalNumber = $('.crystal p');
+var crystalNumber = $('.crystal img');
 
 function crystalRandom(){
     for(var i = 0; i < crystalNumber.length; i++){

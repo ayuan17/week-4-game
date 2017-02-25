@@ -27,6 +27,7 @@ article{
 #score{
     text-align: center;
     color: blue;
+    font-size: 40px;
 }
 
 #player{
@@ -50,7 +51,7 @@ article{
     justify-content: center;
 }
 
-.crystal{
+img{
     width: 70px;
     height: 70px;
     margin: 10px;
@@ -62,21 +63,15 @@ article{
 }
 
 
-.green {
-    background: green;
+.green, .red, .yellow, .blue {
+    background: black;
+    border-radius: 10px;
+    opacity: 50;
+    padding: 5px;
+    border-style: inset;
 }
 
-.red {
-    background: red;
-}
 
-.yellow{
-    background: yellow;
-}
-
-.blue{
-    background: blue;
-}
 
 .blue:hover, .green:hover, .red:hover, .yellow:hover{
     width:75px;
